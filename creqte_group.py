@@ -4,7 +4,6 @@ from group import Group
 
 
 class test(unittest.TestCase):
-
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.driver.implicitly_wait(30)
